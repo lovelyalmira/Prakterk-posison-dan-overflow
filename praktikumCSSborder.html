@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btnRed{padding: 10px; background: magenta; color: aquamarine;}
+        .btnBlue{padding: 10px; background: violet; color: burlywood;}
+        .btnGreen{padding: 10px; background: greenyellow; color : olive}
+        .solid{
+            border-style: solid; border-width: 4px; border-color: coral;
+        }
+        .dotted{
+            border-style: dotted;border-width: 4px; border-color: bisque;
+        }
+        .double{
+            border-style: double;border-width: 4px; border-color: darkkhaki;
+        }
+        .ridge{
+            border-style: ridge;border-width: 4px; border-color: royalblue;  
+        }
+        .inset{
+            border-style: inset;border-width: 4px; border-color: darkred;
+        }
+        .outset{
+            border-style: outset;border-width: 4px; border-color: gold;
+        }
+        .round{
+           border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Border Style</legend>
+        <p class="btnRed solid"><b>solid</b></p>
+        <p class="btnBlu dotted "><b>dotted</b></p>
+        <p class="btnRed double "><b>double</b></p>
+        <p class="btnBlue ridge "><b>ridge</b></p>
+        <p class="btnGreen inset "><b>inset</b></p>
+        <p class="btnGreen outset "><b>outset</b></p>
+    </fieldset>
+    <fieldset class="round">
+        <legend>Border Style </legend>
+        <p class="btnRed solid round"><b>solid</b></p>
+        <p class="btnBlu dotted round"><b>dotted</b></p>
+        <p class="btnRed double round"><b>double</b></p>
+        <p class="btnBlue ridge round"><b>ridge</b></p>
+        <p class="btnGreen inset round"><b>inset</b></p>
+        <p class="btnGreen outset round"><b>outset</b></p>
+     
+    </fieldset>
+</body>
+</html>
